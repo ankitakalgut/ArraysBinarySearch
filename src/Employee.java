@@ -1,4 +1,4 @@
-
+//Employee class
 public class Employee {
 
 	private String empName;
