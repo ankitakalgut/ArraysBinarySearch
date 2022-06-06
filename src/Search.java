@@ -2,12 +2,12 @@ import java.util.Arrays;
 
 public class Search {
 
-	private static final String[] ccp = { "KP","US" };
-	private static final String[] data = { "AU", "CA" };
+	private static final String[] datset1 = { "KP","US" };
+	private static final String[] dataset2 = { "AU", "CA" };
 
 	public static void main(String args[]) {
 		
-		System.out.println(isCCP());
+		System.out.println(ispresent());
 		System.out.println(isdata());
 		System.out.println(isdat2a());
 		
@@ -15,19 +15,19 @@ public class Search {
 
 	}
 
-	public static int isCCP() {
-		return Arrays.binarySearch(ccp,"KP");
+	public static int ispresent() {
+		return Arrays.binarySearch(datset1,"KP");
 
 	}
 
 	
 	public static boolean isdata() {
-		return Arrays.binarySearch(data, "CA")>=0;
+		return Arrays.binarySearch(dataset2, "CA")>=0;
 
 	}
 	
 	public static boolean isdat2a() {
-		return Arrays.binarySearch(data, "CA")>=0;
+		return Arrays.binarySearch(dataset2, "CA")>=0;
 
 	}
 }
