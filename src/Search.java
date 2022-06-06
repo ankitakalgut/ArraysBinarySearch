@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Search {
 
-	private static final String[] datset1 = { "KP","US" };
+	private static final String[] datset1 = { "KP","US" ,"ABCD"};
 	private static final String[] dataset2 = { "AU", "CA" };
 
 	public static void main(String args[]) {
