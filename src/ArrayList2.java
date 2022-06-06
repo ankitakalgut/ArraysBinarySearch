@@ -12,7 +12,7 @@ public class ArrayList2 {
 		al.add("Ajay");
 		Iterator<String> itr = al.iterator();
 		while (itr.hasNext()) {
-			System.out.println(itr.next());
+			System.out.println("Print"+itr.next());
 		}
 	}
 }
