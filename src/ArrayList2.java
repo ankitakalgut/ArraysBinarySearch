@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
+//Get the List of Users
 public class ArrayList2 {
 
 	public static void main(String args[]) {
