@@ -8,7 +8,7 @@ public class ArrayList2 {
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("Raviraj");
 		al.add("Vijaya");
-		al.add("Ravi");
+		al.add("Ravia");
 		al.add("Ajay");
 		Iterator<String> itr = al.iterator();
 		while (itr.hasNext()) {
