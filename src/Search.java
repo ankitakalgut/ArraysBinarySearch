@@ -10,9 +10,6 @@ public class Search {
 		System.out.println(ispresent());
 		System.out.println(isdata());
 		System.out.println(isdat2a());
-		
-	
-
 	}
 
 	public static int ispresent() {
