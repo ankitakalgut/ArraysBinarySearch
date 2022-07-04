@@ -17,7 +17,6 @@ public class Search {
 
 	}
 
-	
 	public static boolean isdata() {
 		return Arrays.binarySearch(dataset2, "CA")>=0;
 
